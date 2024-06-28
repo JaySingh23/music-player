@@ -17,8 +17,6 @@ This is a React-based music player application that fetches and displays a list 
 
 ## Installation
 
-1. Clone the repository:
-
 ```bash
 git clone https://github.com/JaySingh23/music-player-app.git
 cd music-player-app
