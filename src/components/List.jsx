@@ -63,7 +63,7 @@ function List({setCurrentSongIndex}) {
       <Search searchTerm = {searchTerm} onSearchChange = {handleSearchChange} />
 
       {/* Tab Contents */}
-      <div id="ForYou" className={`w-4/5 pl-3 ${activeTab === 'ForYou' ? '' : 'hidden'}`}>
+      <div id="ForYou" className={`w-full md:w-4/5 pl-3 pr-3 md:pr-0 ${activeTab === 'ForYou' ? '' : 'hidden'}`}>
         {loading ? (
           <Loader />
         ) : (
@@ -80,7 +80,7 @@ function List({setCurrentSongIndex}) {
           </>
         )}
       </div>
-      <div id="TopTracks" className={`w-4/5 pl-3 ${activeTab === 'TopTracks' ? '' : 'hidden'}`}>
+      <div id="TopTracks" className={`w-full md:w-4/5 pl-3 pr-3 md:pr-0 ${activeTab === 'TopTracks' ? '' : 'hidden'}`}>
         {loading ? (
           <Loader />
         ) : (
